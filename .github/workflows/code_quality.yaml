@@ -18,4 +18,3 @@ jobs:
         uses: JetBrains/qodana-action@v2022.3.0
         with:
           args: --baseline,qodana.sarif.json
-        failThreshold: 1
